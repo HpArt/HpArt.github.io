@@ -14,19 +14,19 @@ layout: post
 
 用angular-cli快速建一个angular项目，基本结构如下：
 
-![angular-base-structure.png](https://hp.github.io/assets/images/posts/angular/angular-base-structure.png){:height="100%" width="100%"}
+![angular-base-structure.png](https://HpArt.github.io/assets/images/posts/angular/angular-base-structure.png){:height="100%" width="100%"}
 
 如果新加的文件都放在app文件夹下，随着项目功能越来越多，新加的 moldue / componet/ service/ 单元测试等文件越来越多，module 和 componet混在一起，整个项目结构会非常乱，也不利于后期代码维护和管理。
 
 
 下面这张图是我用到的项目结构：
 
-![angular-scalable-structure.png](https://hp.github.io/assets/images/posts/angular/angular-scalable-structure.png){:height="100%" width="100%"}
+![angular-scalable-structure.png](https://HpArt.github.io/assets/images/posts/angular/angular-scalable-structure.png){:height="100%" width="100%"}
 
 ### core 文件夹
 
 core文件夹展开以后如下：
-![angular-structure-core.png](https://hp.github.io/assets/images/posts/angular/angular-structure-core.png){:height="100%" width="100%"}
+![angular-structure-core.png](https://HpArt.github.io/assets/images/posts/angular/angular-structure-core.png){:height="100%" width="100%"}
 
 项目启动还是默认的AppModule，core这个文件夹主要是用来放一些，项目里公用的一些 coponent/ service/ feature 等等，只需要在项目AppModule里引用一次，项目启动以后实例化一次以后全局都能用。
 
