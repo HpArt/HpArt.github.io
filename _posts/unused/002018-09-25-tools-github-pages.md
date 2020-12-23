@@ -31,12 +31,12 @@ GitHub Pages是用来展示你的代码或者项目的网页，可以理解为�
 
 
 这个repository的名字是username.github.io, username指的是你GitHub的用户名，一定要确保用户名正确，否则后续都没办法正常工作。
-![github pages account](https://hp.github.io/assets/images/posts/git/git-pages-account.png){:height="100%" width="100%"}
+![github pages account](https://HpArt.github.io/assets/images/posts/git/git-pages-account.png){:height="100%" width="100%"}
 
 
 **第二步，clone这个仓库到你本地**
 ```cmd
-git clone https://github.com/hp-art/hp.github.io.git
+git clone https://github.com/HpArt/HpArt.github.io.git
 ```
 
 
@@ -46,13 +46,13 @@ git clone https://github.com/hp-art/hp.github.io.git
 在这个文件里，随便写点什么，比如 Hello Pan。
 然后把这个文件上传到git。
 ```cmd
-cd hp.github.io
+cd HpArt.github.io
 cd add index.html
 cd commit -m "add index page"
 cd push
 ```
-然后在浏览器里访问 https://hp.github.io 你可以看到：
-![github pages index](https://hp.github.io/assets/images/posts/git/git-pages-index.png){:height="100%" width="100%"}
+然后在浏览器里访问 https://HpArt.github.io 你可以看到：
+![github pages index](https://HpArt.github.io/assets/images/posts/git/git-pages-index.png){:height="100%" width="100%"}
 
 
 
@@ -64,7 +64,7 @@ cd push
 theme: minima
 ```
 那么默认的样式如下图：
-![github pages minima](https://hp.github.io/assets/images/posts/git/git-pages-minima.png){:height="100%" width="100%"}
+![github pages minima](https://HpArt.github.io/assets/images/posts/git/git-pages-minima.png){:height="100%" width="100%"}
 
 当然你也可以写你自己的css，我的github pages主题样式就是按自己想法写的。
 
@@ -73,16 +73,16 @@ theme: minima
 
 
 我现在GitHub Pages的结构如下：
-![github pages](https://hp.github.io/assets/images/posts/git/git-pages-jekyll.png){:height="100%" width="100%"}
+![github pages](https://HpArt.github.io/assets/images/posts/git/git-pages-jekyll.png){:height="100%" width="100%"}
 
 
 _layouts 这个目录里用来放所有模板文件，比如 default.html, content表示文章内容。
 
-![github pages](https://hp.github.io/assets/images/posts/git/git-pages-layout.png){:height="100%" width="100%"}
+![github pages](https://HpArt.github.io/assets/images/posts/git/git-pages-layout.png){:height="100%" width="100%"}
 
 
 _posts 这个目录里放着所有的blog，都是用markdown写的，一定要按照 年-月-日-文章名 这个规则来命名。
-![github pages](https://hp.github.io/assets/images/posts/git/git-pages-post.png){:height="100%" width="100%"}
+![github pages](https://HpArt.github.io/assets/images/posts/git/git-pages-post.png){:height="100%" width="100%"}
 
 
 _includes 比如页面之间有共用的模块，比如 header footer 放在这个目录下，在其他页面可以通过 include footer.html 直接引用。
@@ -92,6 +92,6 @@ _includes 比如页面之间有共用的模块，比如 header footer 放在这�
 
 
 按一下的语法就把_posts下面所有的文title都列出来了，并且点击对应的title会跳转到对应文章。
-![github pages](https://hp.github.io/assets/images/posts/git/git-pages-postlists.png){:height="100%" width="100%"}
+![github pages](https://HpArt.github.io/assets/images/posts/git/git-pages-postlists.png){:height="100%" width="100%"}
 
 现在最简单的一个Blog就算搭好啦。

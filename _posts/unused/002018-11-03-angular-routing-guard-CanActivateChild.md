@@ -8,7 +8,7 @@ layout: post
 前面两篇文章介绍了路由权限CanActivate和Canload的用法，这里接着介绍路由权限CanActivateChild的用法。
 
 
-源码可以在 [angular-seed-project](https://github.com/hp-art/angular-seed-project) 查看。
+源码可以在 [angular-seed-project](https://github.com/HpArt/angular-seed-project) 查看。
 
 
 在介绍用法之前，先来讲下这三个的区别：
@@ -32,7 +32,7 @@ layout: post
 
 结构如下：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-router-canactivatedchild-1.png){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-router-canactivatedchild-1.png){:height="100%" width="100%"}
 
 并import到ReportsModule里面
 ```ts

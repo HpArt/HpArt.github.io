@@ -5,7 +5,7 @@ welcome_message: 主要记录开发过程中遇到的问题，欢迎了解更多
 description:  嗨，我是Pan。
 creator: He Pan
 
-url: "https://hp.github.io/"
+url: "https://HpArt.github.io/"
 
 permalink: /:year/:month/:title/
 
@@ -23,12 +23,12 @@ blog_button:
 tag_button:
     title: 标签
     description: 技术文章分类
-    url: 'https://hp.github.io/tag/'  
+    url: 'https://HpArt.github.io/tag/'  
 
 # Navigation buttons in the front page.
 nav:
-    #- {title: 简历, description: 我的简历, url: 'https://github.com/hp-art'}
-    - {title: Git, description: 个人代码, url: 'https://github.com/hp-art'}
+    #- {title: 简历, description: 我的简历, url: 'https://github.com/HpArt'}
+    - {title: Git, description: 个人代码, url: 'https://github.com/HpArt'}
     # - {title: Another Button, description: A button, url: 'http://example.com'}
 
 # Pagination
@@ -43,8 +43,8 @@ comment:
     
 # Social
 social:
-    github: Hp
-    mail: hp.arct@gmail.com
+    github: HpArt
+    mail: HpArt.arct@gmail.com
 
 # Google Analytics
 ga:

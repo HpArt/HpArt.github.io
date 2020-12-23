@@ -79,7 +79,7 @@ export class ChildComponent implements OnChanges,DoCheck {
 ```
 
 Google了一下， 在github上找到了一个angular员工给出的一个答复如下：
-![angular-ngonchanges-notfired](https://hp.github.io/assets/images/posts/issues/angular-ngonchanges-notfired1.png){:height="100%" width="100%"}
+![angular-ngonchanges-notfired](https://HpArt.github.io/assets/images/posts/issues/angular-ngonchanges-notfired1.png){:height="100%" width="100%"}
 
 总结来说，就是angular的变化检测的策略是：对于对象来说，只是比较当前对象的引用有没有变化，而不会去比较对象里面的属性值有没有变化。不会做deep comparison。
 

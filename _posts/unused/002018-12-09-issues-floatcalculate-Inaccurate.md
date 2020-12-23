@@ -11,7 +11,7 @@ layout: post
 
 如下图一样，2-1.6正常应该是0.4，但在JS计算得出的结果是0.3999999999999999
 
-![js-float-calculate-issue01]( https://hp.github.io/assets/images/posts/issues/js-float-calculate-issue01.png){:height="100%" width="100%"}
+![js-float-calculate-issue01]( https://HpArt.github.io/assets/images/posts/issues/js-float-calculate-issue01.png){:height="100%" width="100%"}
 
 
 在JavaScript中所有数字包括整数和小数都只有一种类型：Number，它的实现遵循IEEE 754标准，使用64位固定长度表示。IEEE 754规定，有效数字第一位默认总是1，不保存在64位浮点数之中。
@@ -28,7 +28,7 @@ layout: post
 
 我自己用了 decimal.js, 下面图中是decimal.js API，基本概括了所有的计算方法：
 
-![js-float-calculate-issue02]( https://hp.github.io/assets/images/posts/issues/js-float-calculate-issue02.png){:height="100%" width="100%"}
+![js-float-calculate-issue02]( https://HpArt.github.io/assets/images/posts/issues/js-float-calculate-issue02.png){:height="100%" width="100%"}
 
 
 也可以参考它的在线API文档，有非常详细的用法和例子：[decimal.js online API](https://mikemcl.github.io/decimal.js/)

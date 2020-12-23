@@ -62,8 +62,8 @@ layout: post
 解决以上两个问题的详细可以参考：
 
 
-[缓存问题](https://hp.github.io/2018/09/issues-cache-busting)
+[缓存问题](https://HpArt.github.io/2018/09/issues-cache-busting)
 
 
-[如何在webpack build结束后移动dist文件中的文件](https://hp.github.io/2018/09/issues-webpack-file-management)
+[如何在webpack build结束后移动dist文件中的文件](https://HpArt.github.io/2018/09/issues-webpack-file-management)
 

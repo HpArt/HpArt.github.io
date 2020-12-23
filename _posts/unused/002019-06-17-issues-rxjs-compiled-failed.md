@@ -9,15 +9,15 @@ layout: post
 
 最近换电脑了，整个环境都是重新安装的，刚才跑了一个原来的老项目，发现npm install成功，但是npm run start以后会有下面的错误：
 
-![issues-rxjs-compiled-failed03]( https://hp.github.io/assets/images/posts/issues/rxjs-compiled-failed03.png){:height="100%" width="100%"}
+![issues-rxjs-compiled-failed03]( https://HpArt.github.io/assets/images/posts/issues/rxjs-compiled-failed03.png){:height="100%" width="100%"}
 
 #### 电脑升级后的开发环境如下：
 
-![issues-rxjs-compiled-failed01]( https://hp.github.io/assets/images/posts/issues/rxjs-compiled-failed.png){:height="100%" width="100%"}
+![issues-rxjs-compiled-failed01]( https://HpArt.github.io/assets/images/posts/issues/rxjs-compiled-failed.png){:height="100%" width="100%"}
 
 #### 老项目各个包的版本如下：
 
-![issues-rxjs-compiled-failed01]( https://hp.github.io/assets/images/posts/issues/rxjs-compiled-failed02.png){:height="100%" width="100%"}
+![issues-rxjs-compiled-failed01]( https://HpArt.github.io/assets/images/posts/issues/rxjs-compiled-failed02.png){:height="100%" width="100%"}
 
 ## 问题分析
 
@@ -29,7 +29,7 @@ bug地址：[https://github.com/ReactiveX/rxjs/issues/4512](https://github.com/R
 
 而且给出了解释和解决方案：
 
-![issues-rxjs-compiled-failed04]( https://hp.github.io/assets/images/posts/issues/rxjs-compiled-failed04.png){:height="100%" width="100%"}
+![issues-rxjs-compiled-failed04]( https://HpArt.github.io/assets/images/posts/issues/rxjs-compiled-failed04.png){:height="100%" width="100%"}
 
 <blockquote>
 <p>

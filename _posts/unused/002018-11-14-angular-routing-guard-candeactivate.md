@@ -16,31 +16,31 @@ layout: post
 这种行为不是很友好，做得好一点会弹出一个对话框提示用户有未保存的数据，CanDeactivate就是用来处理这种情况的。
 
 
-源码可以在 [angular-seed-project](https://github.com/hp-art/angular-seed-project) 查看。
+源码可以在 [angular-seed-project](https://github.com/HpArt/angular-seed-project) 查看。
 
 
 **第一步，新加CanDeactivateGuard，并把它import到AuthGuardModule中，代码逻辑如下**
 
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-router-guard-candeactivate.png){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-router-guard-candeactivate.png){:height="100%" width="100%"}
 
 **第二步，在SettingsComponent中实现canDeactivate方法**
 
 
 先按最简单的逻辑，只要离开settings页面就弹出一个对话框问用户是否要离开，confirm要离开返回值是true，否则就为false，代码逻辑如下：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-router-guard-candeactivate-1.png){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-router-guard-candeactivate-1.png){:height="100%" width="100%"}
 
 **第三步，在SettingsComponent对应的路由上加上canDeactivate guard**
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-router-guard-candeactivate-2.png){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-router-guard-candeactivate-2.png){:height="100%" width="100%"}
 
 
 npm run start 以后，到settings页面，然后尝试到其他页面的时候，会有一个对话框跳出来，点击cancel后SettingsComponent中的canDeactivate返回值为false会留在当前页面，
 
 点击confirm后SettingsComponent中的canDeactivate返回值为true会直接到reports页面，动图效果如下：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-routing-guard-candeactivate-3.gif){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-routing-guard-candeactivate-3.gif){:height="100%" width="100%"}
 
 
 如果你想要实现，当页面数据有改动时，尝试离开当前页面弹出对话框，那么就把SettingsComponent中的canDeactivate方法的逻辑改一改就可以了。

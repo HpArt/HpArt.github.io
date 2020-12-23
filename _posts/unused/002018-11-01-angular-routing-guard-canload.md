@@ -97,7 +97,7 @@ const routes: Routes = [
 
 到这一步，代码都写好了，我们npm run start看下登入之前，canload对路由权限的控制：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-routing-canload.gif){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-routing-canload.gif){:height="100%" width="100%"}
 
 从上面的动图可以看出，在登入之前，除了加载login页面对应的4.chunk.js文件以外，其他模块都不能访问。
 
@@ -106,7 +106,7 @@ const routes: Routes = [
 
 
 我们来看下，admin登入以后，模块的加载情况：
-![angular](https://hp.github.io/assets/images/posts/angular/angular-routing-canload-canactivate.gif){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-routing-canload-canactivate.gif){:height="100%" width="100%"}
 
 从上面的动图可以看出，登入之前只有4.chunk.js，admin登入以后有权限看settings/reports，settings对应加载0.chunk.js，reports对应加载1.chunk.js。
 

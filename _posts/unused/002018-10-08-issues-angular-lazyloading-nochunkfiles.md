@@ -18,7 +18,7 @@ layout: post
 
 
 
-但是在项目打包后，没有生成业务模块的chunk文件，没有chunk文件也就没办法实现lazy loading。源码：[angular-seed-project](https://github.com/hp-art/angular-seed-project) 
+但是在项目打包后，没有生成业务模块的chunk文件，没有chunk文件也就没办法实现lazy loading。源码：[angular-seed-project](https://github.com/HpArt/angular-seed-project) 
 
 
 用[webpack bundle analyzer](https://github.com/webpack-contrib/webpack-bundle-analyzer)插件发现，所有的业务模块代码：DashboardModule/SettingModule/ReportsModule还是一起打包在app.bundle.js文件中，没有分别生成三个单独的chunk文件：0.chunk.js 1.chunk.js 2.chunk.js

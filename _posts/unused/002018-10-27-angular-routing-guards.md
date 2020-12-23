@@ -11,7 +11,7 @@ layout: post
 这篇文章主要是用来介绍angular中，如何用CanActivate控制页面的访问权限。
 
 
-源码可以在 [angular-seed-project](https://github.com/hp-art/angular-seed-project) 查看。
+源码可以在 [angular-seed-project](https://github.com/HpArt/angular-seed-project) 查看。
 
 
 在示例代码中，有五个模块：AppModule，DashboardModule，ReportsModule，SettingsModule，ProfileModule。
@@ -89,7 +89,7 @@ export class ReportsRoutingModule { }
 
 结构如下：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-routing-permission-authModule.png){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-routing-permission-authModule.png){:height="100%" width="100%"}
 
 同时在app-routing.module.ts里加上这个模块的路由路径：
 
@@ -109,7 +109,7 @@ export class ReportsRoutingModule { }
 
 结构如下：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-routing-permission-auth-guard.png){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-routing-permission-auth-guard.png){:height="100%" width="100%"}
 
 其中CanActivate就是用来控制路由是否有权限访问某个模块的。
 
@@ -248,7 +248,7 @@ const routes: Routes = [
 
 好了，到现在为止，login这块的权限都已经加好了，npm run start把application跑起来以后，login之前，任何业务模块页面都没办法访问：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-routing-permission-login.gif){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-routing-permission-login.gif){:height="100%" width="100%"}
 
 **第七步，限制addmin只可以访问settings和reports页面，user只可以访问dashboard和profile页面**
 
@@ -383,7 +383,7 @@ user用户的权限代码与admin权限代码类似，具体代码可以在 [ang
 
 好了，现在整个路由权限都加好了，效果如下：
 
-![angular](https://hp.github.io/assets/images/posts/angular/angular-routing-permission-for-role.gif){:height="100%" width="100%"}
+![angular](https://HpArt.github.io/assets/images/posts/angular/angular-routing-permission-for-role.gif){:height="100%" width="100%"}
 
 **总结**
 
